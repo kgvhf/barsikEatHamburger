@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="500.0"
+            xmlns="http://javafx.com/javafx/15"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="mi.barsik.DocumentController">
+    <children>
+        <TableView fx:id="documents" prefHeight="400.0" prefWidth="501.0">
+            <columns>
+                <TableColumn fx:id="id" prefWidth="39.0" text="id"/>
+                <TableColumn fx:id="num" prefWidth="156.0" text="num"/>
+                <TableColumn fx:id="date_create" prefWidth="120.0" text="date_create"/>
+                <TableColumn fx:id="date_modify" prefWidth="120.0" text="date_modify"/>
+                <TableColumn fx:id="actual" prefWidth="64.0" text="actual"/>
+            </columns>
+        </TableView>
+    </children>
+</AnchorPane>
